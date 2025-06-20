@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Key Projects Roadmap</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background-color: #f0f8ff;
+      color: #003049;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      color: #1d3557;
+    }
+
+    .roadmap-container {
+      overflow-x: auto;
+      margin-top: 2rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.95rem;
+      min-width: 1200px;
+    }
+
+    thead th {
+      background-color: #1d3557;
+      color: #ffffff;
+      padding: 10px;
+      text-align: center;
+      font-weight: 600;
+    }
+
+    tbody th {
+      background-color: #457b9d;
+      color: #ffffff;
+      padding: 10px;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    td, th {
+      border: 1px solid #dceefc;
+      padding: 12px;
+      vertical-align: top;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f6fbff;
+    }
+
+    td.project-cell {
+      background-color: #003049;
+      color: #ffffff;
+      font-weight: 500;
+      white-space: pre-line;
+      border-left: 5px solid #00b4d8;
+    }
+
+    td.project-cell:empty {
+      background-color: transparent;
+      border-left: none;
+    }
+
+    tbody tr:hover {
+      background-color: #e1f5ff;
+    }
+
+    @media (max-width: 768px) {
+      table {
+        font-size: 0.85rem;
+      }
+
+      h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Key Projects Roadmap</h1>
+  </header>
+
+  <main class="roadmap-container" role="region" aria-label="Key projects roadmap table">
+    <table>
+      <thead>
+  <tr>
+    <th scope="col" rowspan="2">Category</th>
+    <th scope="col" colspan="7">2025</th>
+    <th scope="col" colspan="3">2026</th> <!-- Now correctly starts at January -->
+  </tr>
+  <tr>
+    <th scope="col">June</th>
+    <th scope="col">July</th>
+    <th scope="col">August</th>
+    <th scope="col">September</th>
+    <th scope="col">October</th>
+    <th scope="col">November</th>
+    <th scope="col">December</th>
+    <th scope="col">January</th>
+    <th scope="col">February</th>
+    <th scope="col">March</th>
+  </tr>
+</thead>
+
+      <tbody>
+        <tr>
+          <th scope="row" rowspan="4">Situational Awareness - DTS</th>
+          <td class="project-cell">Creation of landing page</td>
+          <td class="project-cell">Waive landing fees</td>
+          <td class="project-cell">Invoicing approvals</td>
+          <td class="project-cell">Grafana dashboard to operators</td>
+          <td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="project-cell">Movements edit feature</td>
+          <td></td>
+          <td class="project-cell">Operator portal?</td>
+          <td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td class="project-cell">Landing fees calculator</td>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+        <tr>
+          <td></td><td class="project-cell">Grafana dashboards</td>
+          <td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td>
+        </tr>
+
+        <tr>
+          <th scope="row">Dubai & Joby</th>
+          <td></td><td></td><td></td>
+          <td class="project-cell">Joby FIDs integration<br>Cloud security controls<br>Procurement</td>
+          <td class="project-cell">Websocket API integration (weather)<br>Multiple weather sensor management<br>Cloud security controls</td>
+          <td class="project-cell">Ramp agent onboarding for Skyports</td>
+          <td class="project-cell">Surveillance feeds to Joby<br>Spin up EMS/BMS<br>Pre-deployment</td>
+          <td class="project-cell">Pax terminal totem<br>Spin up Dubai cloud env.<br>Pre-deployment</td>
+          <td class="project-cell">DXV Deployment Kickoff<br>Testing with Joby</td>
+          <td></td>
+        </tr>
+
+        <tr>
+          <th scope="row">Tokyo Demonstration</th>
+          <td></td><td></td><td></td><td></td><td></td><td></td>
+          <td></td>
+          <td class="project-cell">Tokyo demo deployment</td>
+          <td class="project-cell">Tokyo demo deployment</td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+
+</body>
+</html>
